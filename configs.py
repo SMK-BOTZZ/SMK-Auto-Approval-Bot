@@ -12,7 +12,7 @@ class Config:
     FSUB = getenv("FSUB", "SMK_NETWORK")
     CHID = int(getenv("CHID", "-1002001054562"))
     SUDO = list(map(int, getenv("SUDO", "6168162777").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://jyotimaurya891824:AQOW8F91e1FhF7Ty@cluster0.m5988ba.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://madarazbotz:ZbVCR4tEzvjolZTj@cluster0.gfqwloi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
 
